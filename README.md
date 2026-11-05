@@ -5,4 +5,6 @@ La actividad contiene los archivos HTML con sus respectivos script JS, suponiend
 
 El archivo analisis.md contiene la documentación y justificación de esta actividad, identificando los objetos definidos y utilizados.
 
-El proyecto será desplegado en las Github Pages de este repositorio.
+Enlace a la página desplegada en las Github Pages de este repositorio:
+
+https://aduarte418.github.io/SateliteBOM/
