@@ -1,0 +1,62 @@
+/* Estilos simples */
+
+/* Estilo para el body de la ventana principal */
+#index-body{
+    background-color: #020a38;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+    font-family: Arial, sans-serif;
+    font-size: 0.8em;
+}
+
+/* Estilo para el body de la ventana satelite */
+#satelite-body{
+    background-color: #02382f;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+    font-family: Arial, sans-serif;
+    font-size: 0.8em;
+}
+
+/* Estilo para el botón de la ventana padre */
+#btn-index-launch{
+    width: 250px;
+    height: 50px;
+    align-self: center;
+    margin: 20px;
+    border-radius: 5px;
+    background-color: #ffffff;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    color: #000000;
+    cursor: pointer;
+}
+
+/* Estilo para el div de botones */
+#btn-satelite-container{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+}
+
+/* Estilo para los botones del satélite */
+.btn-satelite{
+    width: 250px;
+    height: 50px;
+    align-self: center;
+    border-radius: 5px;
+    background-color: #ffffff;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    color: #000000;
+    cursor: pointer;
+}

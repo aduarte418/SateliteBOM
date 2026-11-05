@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Satelite</title>
+
+    <!--Enlace a la hoja CSS-->
+    <link rel="stylesheet" href="styles/styles.css">
+</head>
+<body id="satelite-body">
+
+    <h1>Ventana satélite</h1>
+
+    <!--Mensaje de bienvenida-->
+    <p id="welcome-msg"></p>
+
+    <!--Botones de redirección-->
+    
+    <!--Contenedor de botones-->
+    <div id="btn-satelite-container">
+        <!--Botón de redirección con historial-->
+        <button id="btn-satelite-history" class="btn-satelite">
+            <p>Redirigir con Historial</p>
+        </button>
+        <!--Botón de redirección sin historial-->
+        <button id="btn-satelite-no-history" class="btn-satelite">
+            <p>Redirigir sin Historial</p>
+        </button>
+
+        <!--Botón de autodestrucción-->
+        <button id="btn-satelite-destroy" class="btn-satelite">
+            <p>Autodestrucción en 5 segundos</p>
+        </button>
+    </div>
+
+    <!--Mensaje mientras se ejecuta la cuenta atrás-->
+    <p id="timer"></p>
+
+    <script src="satelite.js"></script>
+
+</body>
+</html>
